@@ -39,7 +39,8 @@ p {
     height: 100%;
     align-items: center;
     justify-content: center; 
-    width: 57.5rem;
+    width: 85%;
+    max-width: 57.5rem;
     min-height: 31.25rem;
     margin: 1rem auto; 
 }
@@ -49,7 +50,7 @@ p {
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
-    max-height: 29rem;
+    max-height: 29em;
 }
 
 .card-section.left {
@@ -108,6 +109,7 @@ p {
         margin: 5rem auto;
         height: auto;
         max-width: 20.5rem;
+        /* Fix margins on small mobiles and fix vertical spacing */
     }
 
     .card-section.left {

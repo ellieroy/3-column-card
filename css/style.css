@@ -110,8 +110,8 @@ p {
 
 @media (max-width: 1100px) {
     main {
-        height: fit-content;
-    }
+        display: block;
+    } 
 
     .card-component {
         flex-direction: column;

@@ -22,6 +22,13 @@ html, body {
     height: 100%;
 }
 
+main {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
 h1 {
     color: var(--light-grey);
     font-family: 'Big Shoulders Display', sans-serif;
@@ -36,13 +43,11 @@ p {
 
 .card-component {
     display: flex;
-    height: 100%;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;  
     width: 85%;
     max-width: 57.5rem;
-    min-height: 31.25rem;
-    margin: 1rem auto; 
+    margin: auto; 
 }
 
 .card-section {   
@@ -50,7 +55,7 @@ p {
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
-    max-height: 29em;
+    max-height: 29rem;
 }
 
 .card-section.left {
@@ -104,12 +109,19 @@ p {
 }
 
 @media (max-width: 1100px) {
+    main {
+        height: fit-content;
+    }
+
     .card-component {
         flex-direction: column;
         margin: 5rem auto;
-        height: auto;
-        max-width: 20.5rem;
-        /* Fix margins on small mobiles and fix vertical spacing */
+        max-width: 20.5rem;        
+    }
+
+    .card-section {
+        min-height: 29rem;
+        max-height: none;
     }
 
     .card-section.left {

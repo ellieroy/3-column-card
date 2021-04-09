@@ -52,8 +52,8 @@ p {
 
 .card-section {   
     padding: 3.1rem;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
     gap: 2.5rem;
     max-height: 29rem;
 }

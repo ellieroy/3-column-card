@@ -84,7 +84,8 @@ p {
     padding: 1rem 2rem;
     border-radius: 25px;
     border: none;
-    margin-top: auto;
+    /* Only works inside flex container */
+    /* margin-top: auto; */
     width: 9rem;
     font-size: 0.8rem;
 }

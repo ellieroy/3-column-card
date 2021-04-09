@@ -18,7 +18,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/3column-preview-card-component-lfrH2DqDE](https://www.frontendmentor.io/solutions/3column-preview-card-component-lfrH2DqDE)
 - Live Site URL: [https://ellieroy.github.io/3-column-card/](https://ellieroy.github.io/3-column-card/)
 
 ### Built with
@@ -28,9 +28,6 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 
-## Author
+# Author
 
 - Frontend Mentor - [@ellieroy](https://www.frontendmentor.io/profile/ellieroy)
-
-## Acknowledgments
-

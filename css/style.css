@@ -19,6 +19,7 @@ html, body {
     font-family: 'Lexend Deca', sans-serif;
     color: var(--paragraph-white);
     background-color: var(--light-grey);
+    height: 100%;
 }
 
 h1 {
@@ -35,16 +36,20 @@ p {
 
 .card-component {
     display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center; 
     width: 57.5rem;
     min-height: 31.25rem;
     margin: 1rem auto; 
 }
 
-.card-section {
+.card-section {   
     padding: 3.1rem;
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
+    max-height: 29rem;
 }
 
 .card-section.left {
@@ -97,3 +102,19 @@ p {
     color: var(--light-grey);
 }
 
+@media (max-width: 1100px) {
+    .card-component {
+        flex-direction: column;
+        margin: 5rem auto;
+        height: auto;
+        max-width: 20.5rem;
+    }
+
+    .card-section.left {
+        border-radius: 5px 5px 0 0;
+    }
+    
+    .card-section.right {
+        border-radius: 0 0 5px 5px;
+    }
+}

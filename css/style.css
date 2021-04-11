@@ -77,7 +77,9 @@ p {
     height: 40px;
 }
 
-.card-section .btn {
+.card-section .btn, 
+.card-section .btn:active, 
+.card-section .btn:visited {
     text-decoration: none;
     text-align: center;
     background-color: var(--light-grey);
